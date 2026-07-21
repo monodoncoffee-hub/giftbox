@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一角鯨・中秋禮盒預購</title>
+<!-- ★ 穩定轉址:未來換後端(例如官網 EasyStore),只改下面 TARGET 兩處(meta + JS)即可，
+     印出去的 QR(指向本頁網址)永遠不必重印。目前指向現有 Google 表單預購。 -->
+<meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform">
+<style>
+  body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    background:#f4f8f7;color:#1c2b2b;text-align:center;padding:24px}
+  .whale{font-size:46px;line-height:1}
+  h1{font-size:19px;margin:14px 0 4px;color:#2a7f7f}
+  p{font-size:14px;color:#5a6b6b;margin:2px 0}
+  a.go{display:inline-block;margin-top:18px;padding:11px 22px;border-radius:999px;
+    background:#2a7f7f;color:#fff;text-decoration:none;font-weight:700;font-size:14px}
+</style>
+</head>
+<body>
+  <div class="whale">🐋</div>
+  <h1>一角鯨的海上小旅行・餅乾禮盒預購</h1>
+  <p>正帶你到預購表單…</p>
+  <a class="go" id="go" href="https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform">沒有自動跳轉?點我前往 →</a>
+  <script>
+    var TARGET = "https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform";
+    try { location.replace(TARGET); } catch (e) { location.href = TARGET; }
+  </script>
+</body>
+</html>
