@@ -5,8 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>一角鯨・中秋禮盒預購</title>
 <!-- ★ 穩定轉址:未來換後端(例如官網 EasyStore),只改下面 TARGET 兩處(meta + JS)即可，
-     印出去的 QR(指向本頁網址)永遠不必重印。目前指向現有 Google 表單預購。 -->
-<meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform">
+     印出去的 QR(指向本頁網址)永遠不必重印。目前指向現有 Google 表單預購。
+     ★ 2026-07-22:帶預填參數 entry.1010030809=oa-push(表單末端「廣告參數」欄),
+     讓 OA 推播來的訂單在回應表自動標記=逐單可歸因;此連結只給 OA 推播用,
+     其他通路(廣告/公開貼文)要自己的參數值就另開路徑,別共用這頁。 -->
+<meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform?usp=pp_url&amp;entry.1010030809=oa-push">
 <style>
   body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
     font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
@@ -22,9 +25,9 @@
   <div class="whale">🐋</div>
   <h1>一角鯨的海上小旅行・餅乾禮盒預購</h1>
   <p>正帶你到預購表單…</p>
-  <a class="go" id="go" href="https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform">沒有自動跳轉?點我前往 →</a>
+  <a class="go" id="go" href="https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform?usp=pp_url&amp;entry.1010030809=oa-push">沒有自動跳轉?點我前往 →</a>
   <script>
-    var TARGET = "https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform";
+    var TARGET = "https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform?usp=pp_url&entry.1010030809=oa-push";
     try { location.replace(TARGET); } catch (e) { location.href = TARGET; }
   </script>
 </body>
