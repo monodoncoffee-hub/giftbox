@@ -7,8 +7,14 @@
 <!-- ★ 穩定轉址:未來換後端(例如官網 EasyStore),只改下面 TARGET 兩處(meta + JS)即可，
      印出去的 QR(指向本頁網址)永遠不必重印。目前指向現有 Google 表單預購。
      ★ 2026-07-22:帶預填參數 entry.1010030809=oa-push(表單末端「廣告參數」欄),
-     讓 OA 推播來的訂單在回應表自動標記=逐單可歸因;此連結只給 OA 推播用,
-     其他通路(廣告/公開貼文)要自己的參數值就另開路徑,別共用這頁。 -->
+     讓 OA 推播來的訂單在回應表自動標記=逐單可歸因。
+     ⚠️ 2026-08-21 更正:原本這裡寫「此連結只給 OA 推播用」——那是當初的設計意圖,
+     不是技術限制,而且隔天(07-23)IG 個人檔案 bio 第 3 條就掛了同一支連結,那句話當場失效,
+     卻一直沒人回來改。代價在 08-21 出現:一張 13 盒 $7,540 的單因為欄位是 oa-push、
+     被機械判成「非廣告單」,實際上客人是看到 IG 廣告、點進個人檔案、再點 bio 連結進來的。
+     → 同日已新開 /preorder/ig/ 帶 ig-bio 專供 IG bio;IG bio 換過去之後,
+     本頁的 oa-push 才真的只代表「OA 推播 + 被轉貼」。
+     ⚠️ 動線鐵則:一個入口一支網址、一個值。要再加通路就再開一支,不要共用這頁。 -->
 <meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/1I_u9HmLWXkmIPs_TCp1vpJ0LjUHEgnEMa60CQ-ok984/viewform?usp=pp_url&amp;entry.1010030809=oa-push">
 <style>
   body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
