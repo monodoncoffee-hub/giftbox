@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一角鯨・餅乾禮盒預購</title>
+<!-- ★ 穩定轉址:未來換後端只改下面 TARGET 兩處(meta + JS)即可,LINE 圖文選單不必再動。
+     ★ 2026-09-02 新開:本頁是 /preorder/ 的「LINE 官方帳號圖文選單專用分身」,唯一差別是帶
+     utm_source=oa-menu(不是 oa-push / ig-bio)。
+     為什麼要開這一頁:老闆 2026-09-02 拍板餅乾預購表單換成官網、表單關閉回應;
+     圖文選單第 2 格「餅乾預購」原本直掛 Google 表單網址(零歸因),要改掛轉址頁。
+     動線規則同 /preorder/ig/:一個入口一支網址、一個值;要再加通路就再開一支,不要共用。
+     ⚠️ 官網訂單看不到 utm(EasyStore 不吐),這個值只留在 Pixel 網址資料;
+     「選單帶單」主要靠顧客身分對 OA 好友人工歸類,utm 是輔證。
+     ⚠️ 中秋檔結束後,TARGET 改指官網餅乾/禮盒的分類頁或當期商品頁即可(只改本頁,選單不動)。 -->
+<meta http-equiv="refresh" content="0; url=https://monodoncoffee.com/products/mid-autumn-giftbox?utm_source=oa-menu">
+<style>
+  body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    background:#f4f8f7;color:#1c2b2b;text-align:center;padding:24px}
+  .mark{width:64px;height:2px;background:#2a7f7f;border-radius:2px}
+  h1{font-size:19px;margin:18px 0 4px;color:#2a7f7f}
+  p{font-size:14px;color:#5a6b6b;margin:2px 0}
+  a.go{display:inline-block;margin-top:18px;padding:11px 22px;border-radius:999px;
+    background:#2a7f7f;color:#fff;text-decoration:none;font-weight:700;font-size:14px}
+</style>
+</head>
+<body>
+  <div class="mark"></div>
+  <h1>一角鯨的海上小旅行・餅乾禮盒預購</h1>
+  <p>正帶你到官網訂購頁…</p>
+  <a class="go" id="go" href="https://monodoncoffee.com/products/mid-autumn-giftbox?utm_source=oa-menu">沒有自動跳轉？點我前往 →</a>
+  <script>
+    var TARGET = "https://monodoncoffee.com/products/mid-autumn-giftbox?utm_source=oa-menu";
+    try { location.replace(TARGET); } catch (e) { location.href = TARGET; }
+  </script>
+</body>
+</html>
